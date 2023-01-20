@@ -1,0 +1,22 @@
+/*  ------------------------- 
+	For IE Browsers 
+------------------------- */
+
+.fixed-nav { display: block; height: 57px;}
+nav .container { display: block;}
+
+/* images  */
+.image-popup-vertical-fit img, .lightbox-gallery img, .image-popup-no-margins img, .popup-gallery img, { cursor: url("images/icon-zoom.cur"), default;}
+
+/*  gallery  */
+.zoom-gallery img { cursor: url("images/icon-zoom2.cur"), default;}
+.zoom-in.mfp-zoom { cursor: url("images/icon-zoom.cur"), default;}
+
+/* owl sliders */
+.owl-carousel .owl-item{ cursor: url("images/icon-move.cur"), default;}
+.owl-carousel.light-pagination .owl-item{ cursor: url("images/icon-move-light.cur"), default;}
+
+/*  popup */
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close, .mfp-image-holder, .mfp-iframe-holder, .mfp-zoom-out-cur {
+	cursor: url("images/icon-zoom-out.cur"), default;}
+.mfp-auto-cursor .mfp-content { cursor: url("images/icon-zoom-out.cur"), default;}
